@@ -24,9 +24,4 @@ It’s useful when you need exact results for very large integers beyond standar
 - No built-in arbitrary‑precision libraries — performance will degrade for extremely large inputs  
 - No interactive UI — command‑line only  
 
-## Build / Compilation Instructions  
 
-```bash
-git clone https://github.com/your‑username/APC_calculator.git
-cd APC_calculator
-gcc -o apc main.c addition.c subtraction.c multiplication.c division.c createlist.c apc.h
